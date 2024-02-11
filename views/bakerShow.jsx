@@ -26,11 +26,11 @@ function Show ({baker}) {
     )
 }
 
-Model.find()
-  .populate({
-    path: 'fieldToPopulate',
-    options: { limit: 2 }
-})
+// Model.find()
+//   .populate({
+//     path: 'fieldToPopulate',
+//     options: { limit: 2 }
+// })
 
 module.exports = Show
 

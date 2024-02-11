@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose
-const Bread = require('./models/bread.js')
+const Bread = require('./bread.js')
 
 const bakerSchema = new Schema ({
     name: {type: String, required: true,
